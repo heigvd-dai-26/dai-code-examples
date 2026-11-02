@@ -9,15 +9,15 @@ complexity; explore them in this order.
 
 1. [TCP binary client/server](01-tcp-binary-client-server)
 2. [TCP textual client/server](02-tcp-textual-client-server)
-3. [UDP unicast client/server](03-udp-unicast-client-server)
 
 ## Part 2/2
 
-1. [UDP broadcast emitter/receiver](04-udp-broadcast-emitter-receiver)
-2. [UDP multicast emitter/receiver](05-udp-multicast-emitter-receiver)
-3. [UDP request-response messaging pattern](06-udp-request-response-messaging-pattern)
-4. [UDP fire-and-forget messaging pattern](07-udp-fire-and-forget-messaging-pattern)
-5. [TCP REPL client/server](08-tcp-repl-client-server)
+1. [UDP unicast client/server](03-udp-unicast-client-server)
+2. [UDP broadcast emitter/receiver](04-udp-broadcast-emitter-receiver)
+3. [UDP multicast emitter/receiver](05-udp-multicast-emitter-receiver)
+4. [UDP request-response messaging pattern](06-udp-request-response-messaging-pattern)
+5. [UDP fire-and-forget messaging pattern](07-udp-fire-and-forget-messaging-pattern)
+6. [TCP REPL client/server](08-tcp-repl-client-server)
 
 ## Usage
 
