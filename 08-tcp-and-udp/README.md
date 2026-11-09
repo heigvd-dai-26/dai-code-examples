@@ -37,4 +37,6 @@ java <ExampleName>.java
 - [`solutions`](solutions): the *Guess the number* game (server and client),
   and the emitter and receiver of *Temperature monitoring*, following the
   specifications of chapter 06. The operator needs the receiver to read two
-  sockets at the same time: chapter 09 explains how.
+  sockets at the same time: chapter 09 explains how, and
+  [`09-network-concurrency/solutions`](../09-network-concurrency/solutions)
+  completes the application.

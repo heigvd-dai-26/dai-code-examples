@@ -11,6 +11,7 @@ One directory per chapter, numbered like the chapters:
 - [06 · Application protocols](06-application-protocols)
 - [07 · SMTP and ncat](07-smtp-and-ncat)
 - [08 · TCP and UDP programming](08-tcp-and-udp)
+- [09 · Network concurrency](09-network-concurrency)
 
 Clone this repository once, then `git pull` to get the examples of new
 chapters:
