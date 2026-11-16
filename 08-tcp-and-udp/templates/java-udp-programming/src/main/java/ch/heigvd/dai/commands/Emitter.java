@@ -10,6 +10,12 @@ import picocli.CommandLine;
 public class Emitter implements Callable<Integer> {
 
   @CommandLine.Option(
+      names = {"-N", "--name"},
+      description = "Name of the room.",
+      required = true)
+  protected String name;
+
+  @CommandLine.Option(
       names = {"-M", "--multicast-address"},
       description = "Multicast address to use (default: ${DEFAULT-VALUE}).",
       defaultValue = "239.255.1.2")

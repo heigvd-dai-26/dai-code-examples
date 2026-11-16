@@ -13,7 +13,7 @@ import picocli.CommandLine;
         "Start the receiver part of the network application using the fire-and-forget messaging pattern for the emitters and the request-reply messaging pattern for the operators.")
 public class Receiver implements Callable<Integer> {
   // The rooms with their temperature
-  protected Map<String, Integer> roomsTemperature = new ConcurrentHashMap<>();
+  protected Map<String, Double> roomsTemperature = new ConcurrentHashMap<>();
 
   @CommandLine.Option(
       names = {"-M", "--multicast-address"},
